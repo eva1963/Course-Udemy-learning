@@ -1,0 +1,30 @@
+{
+    // eslint规则设置
+    "rules": {
+        // 禁止使用var
+        "no-var": "error",
+        // 禁止使用console
+        "no-console": "error",
+        // 禁止使用debugger
+        "no-debugger": "error",
+        // 禁止使用alert
+        "no-alert": "error",
+        // 禁止使用eval
+        "no-eval": "error",
+        // 禁止使用with
+        "no-with": "error",
+    },
+    // eslint环境设置
+    "env": {
+        // 浏览器环境
+        "browser": true,
+        // node环境
+        "node": true,
+        // es6环境
+        "es6": true
+    },
+    // eslint全局变量设置
+    // 使用arbnb的规则
+    "extends": "airbnb-base",
+
+}
